@@ -1,9 +1,5 @@
-ifndef KVER
-KVER=$(shell uname -r)
-endif
-
 ifndef KERNEL_SRC_DIR
-KERNEL_SRC_DIR =/lib/modules/$(KVER)/build
+KERNEL_SRC_DIR =/lib/modules/$(uname -r)/build
 endif
 
 
