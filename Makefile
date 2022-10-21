@@ -9,4 +9,3 @@ obj-m += kmm_ci_b.o
 
 all:
 	make -C $(KERNEL_SRC_DIR) $(MAKE_OPTS) M=$(PWD) modules
-
