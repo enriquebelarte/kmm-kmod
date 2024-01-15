@@ -1,5 +1,5 @@
 ifndef KERNEL_SRC_DIR
-KERNEL_SRC_DIR =/lib/modules/$(KERNEL_VERSION)/build
+KERNEL_SRC_DIR =/lib/modules/$(shell uname -r)/build
 endif
 
 
